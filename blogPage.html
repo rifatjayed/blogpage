@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+
+
+
+    <section class="lg:w-9/12 md:w-[90%] w-[95%] mx-auto text-center" id="rulesContainer">
+        <h1 class="text-center my-8 text-3xl font-bold">Welcome to Bonus Section</h1>
+        <div class="lg:w-[80%] md:w-[90%] w-[90%] mx-auto text-left">
+            <!-- Quiz rules start -->
+            <ul class="text-sm my-10">
+                <!-- <li class="my-4">
+          <span class="bg-orange-200 px-2 rounded">Step 1:</span> Click on the
+          <span class="bg-green-600 text-white px-2 rounded">Start Quiz</span>
+          button below.
+        </li> -->
+                <div>
+                    <li class="my-4 text-2xl font-semibold">
+                        <span class="bg-orange-200 px-2 rounded text-2xl">Question No 1:</span>What is the difference
+                        among Map, filter and ForEach method in Javascipt language ?
+                    </li>
+                    <p class="text-2xl">Answer : Map method returns a new Array and provides us all a value of Array's that are mathced by condition.Same like as Filter method creats a new array but it provides only first statement that are mathced by condition. ForEach method doesn't provide return array and it gives always undefined.</p>
+                </div>
+                <div class="my-20">
+                    <li class="my-4 text-2xl font-semibold">
+                        <span class="bg-orange-200 px-2 rounded text-2xl">Question No 2:</span>What is the difference among localStorage, sessionStorage and cookies ?
+                    </li>
+                    <p class="text-2xl">Answer : Local storage and Session storage both are newly APIs in browser.Browser supports them.if you reload the page or closed the page or browser closed, local storage data is not removed from the browser.Untill you clean tha data from local storage ,you can get data from local Storage.
+                        if you reload the browser, you can get data from session storage.but if you closed the browser ,data will be removed.
+                        Cookies contains Strings that are separated by semi-colon.It's also contain key pairs value.when User visited a new site, browser save his/her user-name and information.Next time a user enterd in the website ,the browser cheacked user information from cookies..</p>
+                </div>
+
+                <div>
+                    <li class="my-4 text-2xl font-semibold">
+                        <span class="bg-orange-200 px-2 rounded text-2xl">Question No 3:</span>What is an event loop? How it work?
+
+                    </li>
+                    <p class="text-2xl">Answer :The event loop is the secret behind JavaScript’s asynchronous programming. The event loop is the term given to the process of the waiting for the queue to receive a message synchronously. The increment that the event loop moves in is called a ‘tick’, and every time it ‘ticks’ it checks if the call stack is empty, if so , it adds the top function in the event queue to the call stack and executes it. Once it is finished processing this function it starts ticking again.</p>
+                </div>
+  
+
+    </section>
+</body>
+
+</html>
